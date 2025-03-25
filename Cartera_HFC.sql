@@ -116,7 +116,7 @@ mm-datamart-kd.SERVICES.gaps_coverage_ektnet
 =Si([cto_saturada]="CTO saturada";"CTO bloqueada";Si([campaña_swap_pendiente]<>"////";"ClienteConBuzonSwapPendiente";Si([cliente contactado]="no";Si([hueco_migrable]="si";Si([coberturaFTTH]="ConFTTH" ;Si([campaña_swap_pendiente]<>"////";"ClienteConBuzonSwapPendiente";Si([cliente moroso en campaña fide]="si";"ClienteMoroso";Si([sin BA]="sinBA";"Disponible_ClienteSinBA";Si([Variables].[Nodos2025]="Nodos 2025";"Disponible_ClienteNodos2025";Si(EsNulo([clienteBidasoa]);"Disponible_clientesResto";"Disponible_ClientesBidasoa")))));"ClienteSinFTTH");"hueco no migrable");Si([Cliente Rechazado/ilocalizado]="si";Si(EsNulo([clientes contactados 2 meses]);"Disponible_Ref.Cliente Rechaza/ilocalizado de hace mas de dos meses";"Cliente Rechaza/ilocalizado de hace menos de dos meses");Si(EsNulo([proceso swap en curso]);"Cliente Informado sin proceso swap en curso";"Cliente Informado con proceso swap en curso")))))
 */
  
-
+--
 #####################################################################################################
 --4.1 AREA DE INFLUENCIA
 #####################################################################################################
